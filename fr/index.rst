@@ -7,7 +7,7 @@ Ce logiciel est un outil d'édition d'effets de particules. En incorporant le ru
 .. toctree::
     :maxdepth: 1  
 
-    Aperçu
+    Overview
     ToolTutorial/index
     ToolReference/index
     MaterialToolReference/index
