@@ -8,11 +8,11 @@
 
 ### Common
 
-Fixed a bug where Effekseer crashes when 1.6 files are loaded.
+Correction d'un bug où Effekseer se bloque lorsque les fichiers 1.6 sont chargés. 
 
 ### Editor
 
-Replaced docking panel.
+Panneau d'amarrage remplacé.
 
 ### Runtime
 
