@@ -2,37 +2,33 @@
 
 ## General
 
-### How do I pronounce Effekseer?
+### Comment prononcer Effekseer?
 
-It is "Effec"+"seer".
+C'est "Effec"+"seer".
 
-## Editing Tool
+## Outil d'édition
 
-### My changes to parameters are not getting applied.
+### Mes modifications apportées aux paramètres ne sont pas appliquées.
 
-If you change a parameter's value, please press enter afterwards, or move the focus to a different field. The change will be applied by doing so.
+Si vous modifiez la valeur d'un paramètre, appuyez ensuite sur Entrée ou déplacez le focus vers un autre champ. Le changement sera appliqué ce faisant. 
 
-### My rotation settings are not applied to the sprite.
+### Mes paramètres de rotation ne sont pas appliqués au sprite.
 
-If the drawing method is "Sprite", rotation will be ignored when the render configuration is set to "Billboard" (since Billboard locks the sprite's rotation to make it always face the camera). To apply rotation to a sprite render, please choose any of the other render configuration options.
+Si la méthode de dessin est "Sprite", la rotation sera ignorée lorsque la configuration de rendu est définie sur "Billboard" (puisque Billboard verrouille la rotation du sprite pour qu'il soit toujours face à la caméra). Pour appliquer la rotation à un rendu de sprite, veuillez choisir l'une des autres options de configuration de rendu.
 
-### How do I record?
+### Comment enregistrer?
 
-When you select "Window -> Recording" from the editing tool, the recording screen will be displayed. By pressing Record on the recording screen, the recording result is output. If you select "Window -> Viewpoint Operation", the viewpoint operation screen will be displayed. On the viewpoint operation screen, you can manipulate the viewpoint numerically.
+Lorsque vous sélectionnez "Window -> Recording" dans l'outil d'édition, l'écran d'enregistrement s'affiche. En appuyant sur Enregistrer sur l'écran d'enregistrement, le résultat de l'enregistrement est émis. Si vous sélectionnez "Window -> Viewpoint Operation", l'écran de fonctionnement du point de vue s'affiche. Sur l'écran d'opération du point de vue, vous pouvez manipuler le point de vue numériquement. 
 
-## Embedding Effects
+## Effets d'incorporation
 
-### How can I use it with other applications?
+### Comment puis-je l'utiliser avec d'autres applications?
 
-Please download plugins and libraries for other applications from the official site. By using them you will be able to play effects in other applications.
+Veuillez télécharger des plugins et des bibliothèques pour d'autres applications à partir du site officiel. En les utilisant, vous pourrez jouer des effets dans d'autres applications.
 
-### How do you format it for playback at runtime?
+## Autres
 
-Select "File -> Output -> Effekseer Game Output Format" from the editing tool and output it.
+### Je veux la fonction de ....
 
-## Others
-
-### I want the function of ....
-
-We will consider as much as possible. The earliest thing is to become a committer or to modify this tool as a separate project by yourself.
+Nous examinerons autant que possible. La première chose à faire est de devenir un committer ou de modifier cet outil en tant que projet séparé par vous-même.
 
