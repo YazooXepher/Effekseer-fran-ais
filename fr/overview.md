@@ -1,67 +1,67 @@
-﻿# Overview
+﻿# Aperçu
 
-## Operating Environment, Required Runtimes, etc.
+## Environnement d'exploitation, temps d'exécution requis, etc.
 
-### Editing Tool(Windows)
+### Outil d'édition(Windows)
 
-Windows7 SP1 or later
+Windows7 SP1 ou plus
 
-DirectX 11 (ShaderModel 4.0 or later)
+DirectX 11 (ShaderModel 4.0 ou plus)
 
-If this application doesn't run, please install D3DCompiler_47.dll from a bellow link.
+Si cette application ne fonctionne pas, veuillez installer D3DCompiler_47.dll à partir d'un lien ci-dessous.
 
 [D3DCompiler_47.dll](https://support.microsoft.com/en-us/help/4020302/the-net-framework-4-7-installation-is-blocked-on-windows-7-windows-ser)
 
-### Editing Tool(macOS)
+### Outil d'édition(macOS)
 
-macOS Sierra or later
+macOS Sierra ou plus
 
-If this application doesn't run, please install mono from a bellow link.
+Si cette application ne fonctionne pas, veuillez installer mono à partir d'un lien ci-dessous.
 
 [mono](https://www.mono-project.com/)
 
 ### Runtime
 
-*   DirectX 9 (ShaderModel 3.0 or later)
-*   DirectX 11 (ShaderModel 3.0 or later)
-*   OpenGL 4.1 or later
-*   OpenGL ES 2.0 or later
+*   DirectX 9 (ShaderModel 3.0 ou plus)
+*   DirectX 11 (ShaderModel 3.0 ou plus)
+*   OpenGL 4.1 ou plus
+*   OpenGL ES 2.0 ou plus
 
 ## Installation/Uninstallation
 
 ### Windows
 
-The editing tool exists entirely within the "Tool/" directory. We do not modify the registry, or anything else at all. You can start the program directly, or copy it to any directory.  
-To uninstall, just delete each directory.
+L'outil d'édition existe entièrement dans le répertoire "Tool /". Nous ne modifions pas le registre, ni quoi que ce soit d'autre. Vous pouvez démarrer le programme directement ou le copier dans n'importe quel répertoire.
+Pour désinstaller, supprimez simplement chaque répertoire.
 
 ### macOS
 
-Open Effekseer.dmg and copy the Effekseer.app to your Applications or Home directory.
-If you want to uninstall Effekseer, please delete Effekseer.app.
+Ouvrez Effekseer.dmg et copiez Effekseer.app dans votre répertoire Applications ou Home.
+Si vous souhaitez désinstaller Effekseer, veuillez supprimer Effekseer.app.
 
-### Others
+### Autres
 
-To play effects in your game, you must download separate packages such as the runtime, Unity, or DX libraries.  
+Pour jouer des effets dans votre jeu, vous devez télécharger des packages séparés tels que les bibliothèques d'exécution, Unity ou DX.  
 
-Alternatively, if you just want to use the effect as an exported image, sprite sheet, or video, refer to the [Recording](ToolReference/record) reference guide.
+Sinon, si vous souhaitez simplement utiliser l'effet en tant qu'image, feuille de sprite ou vidéo exportée, reportez-vous à la [Recording](ToolReference/record) guide de référence. 
 
 ## License
 
-The runtime license is the MIT license.
+La licence d'exécution est la licence MIT.
 
-In the case of DirectX, it depends on [DirectX Tool Kit](https://directxtk.codeplex.com/).
+Dans le cas de DirectX, cela dépend de [DirectX Tool Kit](https://directxtk.codeplex.com/).
 
-In the case of Vulkan, it depends on [glslang](https://github.com/KhronosGroup/glslang).
+Dans le cas de Vulkan, cela dépend de [glslang](https://github.com/KhronosGroup/glslang).
 
-Please refer to the license below as the tool depends on various libraries.
+Veuillez vous référer à la licence ci-dessous car l'outil dépend de différentes bibliothèques.
 
-The data for textures and effects is CC-0. Please feel free to use them as you wish.
+Les données pour les textures et les effets sont CC-0. N'hésitez pas à les utiliser comme vous le souhaitez.
 
-## Disclaimer
+## Avertissement
 
-We can not assume any responsibility for troubles etc. when using this software and runtime.
+Nous ne pouvons assumer aucune responsabilité pour les problèmes, etc. lors de l'utilisation de ce logiciel et de ce runtime.
 
-## Contact information
+## Informations de contact
 
 effekseer(at)gmail.com
 
@@ -76,22 +76,22 @@ The MIT License (MIT)
 
 Copyright (c) 2011 Effekseer Project
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+L'autorisation est par la présente accordée, gratuitement, à toute personne obtenant une copie de
+ce logiciel et les fichiers de documentation associés (le «Logiciel»), pour traiter
+le Logiciel sans restriction, y compris, sans limitation, les droits de
+utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et / ou vendre des copies de
+le Logiciel, et pour permettre aux personnes à qui le Logiciel est fourni de le faire,
+sous réserve des conditions suivantes:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+L'avis de droit d'auteur ci-dessus et cet avis d'autorisation doivent être inclus dans tous
+copies ou parties substantielles du logiciel.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU
+IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER LES GARANTIES DE QUALITÉ MARCHANDE, DE FITNESS
+POUR UN USAGE PARTICULIER ET LA NON-CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU
+LES TITULAIRES DES DROITS D'AUTEUR SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRE RESPONSABILITÉ, QUE CE SOIT
+DANS UNE ACTION DE CONTRAT, DE TORT OU AUTRE, RÉSULTANT DE, HORS OU DANS
+CONNEXION AU LOGICIEL OU À L'UTILISATION OU AUTRES ACTIONS DANS LE LOGICIEL.
 
 </pre>
 
@@ -102,22 +102,22 @@ The MIT License (MIT)
 
 Copyright (c) 2011 Effekseer Project
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+L'autorisation est par la présente accordée, gratuitement, à toute personne obtenant une copie de
+ce logiciel et les fichiers de documentation associés (le «Logiciel»), pour traiter
+le Logiciel sans restriction, y compris, sans limitation, les droits de
+utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et / ou vendre des copies de
+le Logiciel, et pour permettre aux personnes à qui le Logiciel est fourni de le faire,
+sous réserve des conditions suivantes:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+L'avis de droit d'auteur ci-dessus et cet avis d'autorisation doivent être inclus dans tous
+copies ou parties substantielles du logiciel.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU
+IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER LES GARANTIES DE QUALITÉ MARCHANDE, DE FITNESS
+POUR UN USAGE PARTICULIER ET LA NON-CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU
+LES TITULAIRES DES DROITS D'AUTEUR SONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRE RESPONSABILITÉ, QUE CE SOIT
+DANS UNE ACTION DE CONTRAT, DE TORT OU AUTRE, RÉSULTANT DE, HORS OU DANS
+CONNEXION AU LOGICIEL OU À L'UTILISATION OU AUTRES ACTIONS DANS LE LOGICIEL.
 
 DirectX Tool Kit
 https://directxtk.codeplex.com/
@@ -136,11 +136,11 @@ GD Graphics Library
 
 Credits and license terms:
 
-In order to resolve any possible confusion regarding the authorship of
-gd, the following copyright statement covers all of the authors who
-have required such a statement. If you are aware of any oversights in
-this copyright notice, please contact Pierre-A. Joye who will be
-pleased to correct them.
+Afin de résoudre toute confusion possible concernant la paternité de
+gd, la déclaration de droit d'auteur suivante couvre tous les auteurs qui
+ont exigé une telle déclaration. Si vous êtes au courant de tout oubli dans
+cette notice de copyright, veuillez contacter Pierre-A. Joye qui sera
+heureux de les corriger.
 
    Portions copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001,
    2002, 2003, 2004 by Cold Spring Harbor Laboratory. Funded under
@@ -164,159 +164,159 @@ pleased to correct them.
    Portions copyright 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007
    Pierre-Alain Joye (pierre@libgd.org).
 
-   Portions relating to JPEG and to color quantization copyright
-   2000, 2001, 2002, 2003, 2004, Doug Becker and copyright (C) 1994,
-   1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004 Thomas
-   G. Lane. This software is based in part on the work of the
-   Independent JPEG Group. See the file README-JPEG.TXT for more
-   information.
+   Portions relatives au JPEG et aux droits d'auteur sur la quantification des couleurs
+    2000, 2001, 2002, 2003, 2004, Doug Becker et copyright (C) 1994,
+    1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004 Thomas
+    G. Lane. Ce logiciel est basé en partie sur le travail du
+    Groupe JPEG indépendant. Voir le fichier README-JPEG.TXT pour plus
+    informations.
 
-   Portions relating to GIF compression copyright 1989 by Jef
-   Poskanzer and David Rowley, with modifications for thread safety
-   by Thomas Boutell.
+    Portions relatives à la compression GIF copyright 1989 par Jef
+    Poskanzer et David Rowley, avec des modifications pour la sécurité des fils
+    par Thomas Boutell.
 
-   Portions relating to GIF decompression copyright 1990, 1991, 1993
-   by David Koblas, with modifications for thread safety by Thomas
-   Boutell.
+    Portions relatives à la décompression GIF copyright 1990, 1991, 1993
+    par David Koblas, avec des modifications pour la sécurité des fils par Thomas
+    Boutell.
 
-   Portions relating to WBMP copyright 2000, 2001, 2002, 2003, 2004
-   Maurice Szmurlo and Johan Van den Brande.
+   Parties relatives au copyright WBMP 2000, 2001, 2002, 2003, 2004
+    Maurice Szmurlo et Johan Van den Brande.
 
-   Portions relating to GIF animations copyright 2004 Jaakko Hyvätti
-   (jaakko.hyvatti@iki.fi)
+    Parties relatives aux animations GIF copyright 2004 Jaakko Hyvätti
+    (jaakko.hyvatti@iki.fi)
 
-Permission has been granted to copy, distribute and modify gd in
-any context without fee, including a commercial application,
-provided that this notice is present in user-accessible supporting
-documentation.
+La permission a été accordée de copier, distribuer et modifier gd dans
+tout contexte sans frais, y compris une application commerciale,
+à condition que cet avis soit présent dans un support accessible à l'utilisateur
+Documentation.
 
-This does not affect your ownership of the derived work itself,
-and the intent is to assure proper credit for the authors of gd,
-not to interfere with your productive use of gd. If you have
-questions, ask. "Derived works" includes all programs that utilize
-the library. Credit must be given in user-accessible
-documentation.
+Cela n'affecte pas votre propriété de l'œuvre dérivée elle-même,
+et l'intention est d'assurer le crédit approprié pour les auteurs de gd,
+pour ne pas interférer avec votre utilisation productive de gd. Si tu as
+questions, posez. «Œuvres dérivées» comprend tous les programmes qui utilisent
+la bibliothèque. Le crédit doit être donné dans une
+Documentation.
 
-This software is provided "AS IS." The copyright holders disclaim
-all warranties, either express or implied, including but not
-limited to implied warranties of merchantability and fitness for a
-particular purpose, with respect to this code and accompanying
-documentation.
+Ce logiciel est fourni «EN L'ÉTAT». Les titulaires des droits d'auteur déclinent
+toutes les garanties, expresses ou implicites, y compris mais non
+limitée aux garanties implicites de qualité marchande et d'adéquation à un
+but particulier, en ce qui concerne ce code et l'accompagnement
+Documentation.
 
-Although their code does not appear in the current release, the
-authors also wish to thank Hutchison Avenue Software Corporation
-for their prior contributions.
+Bien que leur code n'apparaisse pas dans la version actuelle, le
+les auteurs souhaitent également remercier Hutchison Avenue Software Corporation
+pour leurs contributions antérieures.
 
-Native File Dialog
+Boîte de dialogue de fichier natif
 
-This software is provided 'as-is', without any express or implied
-warranty.  In no event will the authors be held liable for any damages
-arising from the use of this software.
+Ce logiciel est fourni `` tel quel '', sans aucun
+garantie. En aucun cas, les auteurs ne pourront être tenus responsables de tout dommage
+résultant de l'utilisation de ce logiciel.
 
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
+La permission est accordée à quiconque d'utiliser ce logiciel à quelque fin que ce soit,
+y compris les applications commerciales, et pour le modifier et le redistribuer
+librement, sous réserve des restrictions suivantes:
 
-1\. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would be
-   appreciated but is not required.
-2\. Altered source versions must be plainly marked as such, and must not be
-   misrepresented as being the original software.
-3\. This notice may not be removed or altered from any source distribution.
+1\. L'origine de ce logiciel ne doit pas être déformée; il ne faut pas
+    prétendre que vous avez écrit le logiciel original. Si vous utilisez ce logiciel
+    dans un produit, une reconnaissance dans la documentation du produit serait
+    apprécié mais n'est pas obligatoire.
+2 \. Les versions source modifiées doivent être clairement marquées comme telles et ne doivent pas être
+    présenté à tort comme étant le logiciel original.
+3 \. Cet avis ne peut être supprimé ou modifié d'aucune distribution source.
 
 -- 源真ゴシック --
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at:
+Ce logiciel de polices est concédé sous licence SIL Open Font, version 1.1.
+Cette licence est copiée ci-dessous et est également disponible avec une FAQ à l'adresse:
 http://scripts.sil.org/OFL
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 -----------------------------------------------------------
 
-PREAMBLE
-The goals of the Open Font License (OFL) are to stimulate worldwide
-development of collaborative font projects, to support the font creation
-efforts of academic and linguistic communities, and to provide a free and
-open framework in which fonts may be shared and improved in partnership
-with others.
+PRÉAMBULE
+Les objectifs de l'Open Font License (OFL) sont de stimuler dans le monde entier
+développement de projets collaboratifs de polices, pour accompagner la création de polices
+efforts des communautés académiques et linguistiques, et de fournir une
+cadre ouvert dans lequel les polices peuvent être partagées et améliorées en partenariat
+avec les autres.
 
-The OFL allows the licensed fonts to be used, studied, modified and
-redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded, 
-redistributed and/or sold with any software provided that any reserved
-names are not used by derivative works. The fonts and derivatives,
-however, cannot be released under any other type of license. The
-requirement for fonts to remain under this license does not apply
-to any document created using the fonts or their derivatives.
+L'OFL permet aux polices sous licence d'être utilisées, étudiées, modifiées et
+redistribués librement tant qu'ils ne sont pas vendus par eux-mêmes. Le
+les polices, y compris les œuvres dérivées, peuvent être regroupées, intégrées,
+redistribué et / ou vendu avec tout logiciel à condition que tout
+les noms ne sont pas utilisés par les œuvres dérivées. Les polices et dérivés,
+cependant, ne peut être délivré sous aucun autre type de licence. Le
+l'obligation pour les polices de rester sous cette licence ne s'applique pas
+à tout document créé à l'aide des polices ou de leurs dérivés.
 
-DEFINITIONS
-"Font Software" refers to the set of files released by the Copyright
-Holder(s) under this license and clearly marked as such. This may
-include source files, build scripts and documentation.
+DÉFINITIONS
+«Logiciel de polices» fait référence à l'ensemble des fichiers publiés par le Copyright
+Titulaire (s) sous cette licence et clairement identifiés comme tels. Ceci peut
+inclure les fichiers source, les scripts de construction et la documentation.
 
-"Reserved Font Name" refers to any names specified as such after the
-copyright statement(s).
+«Nom de police réservé» fait référence à tous les noms spécifiés comme tels après le
+déclaration (s) de copyright.
 
-"Original Version" refers to the collection of Font Software components as
-distributed by the Copyright Holder(s).
+«Version originale» fait référence à l'ensemble des composants du logiciel de polices comme
+distribué par le (s) détenteur (s) des droits d'auteur.
 
-"Modified Version" refers to any derivative made by adding to, deleting,
-or substituting -- in part or in whole -- any of the components of the
-Original Version, by changing formats or by porting the Font Software to a
-new environment.
+«Version modifiée» fait référence à tout dérivé effectué en ajoutant, supprimant,
+ou en remplaçant - en partie ou en totalité - l'un des composants du
+Version originale, en changeant de format ou en portant le logiciel de police sur un
+nouvel environnement.
 
-"Author" refers to any designer, engineer, programmer, technical
-writer or other person who contributed to the Font Software.
+«Auteur» désigne tout concepteur, ingénieur, programmeur, technique
+écrivain ou autre personne ayant contribué au logiciel de polices.
 
-PERMISSION & CONDITIONS
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of the Font Software, to use, study, copy, merge, embed, modify,
-redistribute, and sell modified and unmodified copies of the Font
-Software, subject to the following conditions:
+PERMISSION ET CONDITIONS
+L'autorisation est par la présente accordée, gratuitement, à toute personne obtenant
+une copie du logiciel de polices, pour utiliser, étudier, copier, fusionner, incorporer, modifier,
+redistribuer et vendre des copies modifiées et non modifiées de la police
+Logiciel, sous réserve des conditions suivantes:
 
-1) Neither the Font Software nor any of its individual components,
-in Original or Modified Versions, may be sold by itself.
+1) Ni le logiciel de polices ni aucun de ses composants individuels,
+dans les versions originales ou modifiées, peut être vendu seul.
 
-2) Original or Modified Versions of the Font Software may be bundled,
-redistributed and/or sold with any software, provided that each copy
-contains the above copyright notice and this license. These can be
-included either as stand-alone text files, human-readable headers or
-in the appropriate machine-readable metadata fields within text or
-binary files as long as those fields can be easily viewed by the user.
+2) Les versions originales ou modifiées du logiciel de polices peuvent être groupées,
+redistribué et / ou vendu avec n'importe quel logiciel, à condition que chaque copie
+contient l'avis de droit d'auteur ci-dessus et cette licence. Ceux-ci peuvent être
+inclus sous forme de fichiers texte autonomes, d'en-têtes lisibles par l'homme ou
+dans les champs de métadonnées lisibles par machine appropriés dans le texte ou
+les fichiers binaires tant que ces champs peuvent être facilement visualisés par l'utilisateur.
 
-3) No Modified Version of the Font Software may use the Reserved Font
-Name(s) unless explicit written permission is granted by the corresponding
-Copyright Holder. This restriction only applies to the primary font name as
-presented to the users.
+3) Aucune version modifiée du logiciel de police ne peut utiliser la police réservée
+Nom (s) sauf autorisation écrite explicite accordée par le correspondant
+Titulaire des droits d'auteur. Cette restriction s'applique uniquement au nom de la police principale comme
+présenté aux utilisateurs.
 
-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-Software shall not be used to promote, endorse or advertise any
-Modified Version, except to acknowledge the contribution(s) of the
-Copyright Holder(s) and the Author(s) or with their explicit written
-permission.
+4) Le (s) nom (s) du (des) titulaire (s) du droit d'auteur ou du ou des auteurs de la police
+Le logiciel ne doit pas être utilisé pour promouvoir, approuver ou annoncer
+Version modifiée, sauf pour reconnaître la (les) contribution (s) du
+Titulaire (s) des droits d'auteur et auteur (s) ou avec leur écrit explicite
+autorisation.
 
-5) The Font Software, modified or unmodified, in part or in whole,
-must be distributed entirely under this license, and must not be
-distributed under any other license. The requirement for fonts to
-remain under this license does not apply to any document created
-using the Font Software.
+5) Le logiciel de polices, modifié ou non, en partie ou en totalité,
+doit être distribué entièrement sous cette licence et ne doit pas être
+distribué sous toute autre licence. L'obligation pour les polices de
+rester sous cette licence ne s'applique à aucun document créé
+en utilisant le logiciel de polices.
 
-TERMINATION
-This license becomes null and void if any of the above conditions are
-not met.
+RÉSILIATION
+Cette licence devient nulle et non avenue si l'une des conditions ci-dessus est
+pas rencontré.
 
-DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.
+AVERTISSEMENT
+LE LOGICIEL FONT EST FOURNI "EN L'ÉTAT", SANS GARANTIE D'AUCUNE SORTE,
+EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, TOUTE GARANTIE DE
+QUALITÉ MARCHANDE, ADAPTATION À UN USAGE PARTICULIER ET NON-CONTREFAÇON
+DE COPYRIGHT, BREVET, MARQUE OU AUTRE DROIT. EN AUCUN CAS LE
+LE TITULAIRE DU COPYRIGHT EST RESPONSABLE DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRE RESPONSABILITÉ,
+Y COMPRIS TOUT GÉNÉRAL, SPÉCIAL, INDIRECT, ACCESSOIRE OU CONSÉCUTIF
+DOMMAGES, QUE CE SOIT DANS UNE ACTION DE CONTRAT, DE TORT OU AUTREMENT, SURVENANT
+DE, HORS DE L'UTILISATION OU DE L'INCAPACITÉ D'UTILISER LE LOGICIEL DE POLICE OU DE
+AUTRES OPÉRATIONS DANS LE LOGICIEL POLICE.
 
 </pre>
 
