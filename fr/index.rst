@@ -1,13 +1,13 @@
 ===========================
-Effekseer Help (English)
+Aide Effekseer  (Français)
 ===========================
 
-This software is a particle effect editing tool. By incorporating runtime and plug-ins, you can play effects created with Effekseer in your application. It is assumed to be mainly used in games, so that the designer can handle the particle effect editing rather than the programmer.
+Ce logiciel est un outil d'édition d'effets de particules. En incorporant le runtime et les plug-ins, vous pouvez lire les effets créés avec Effekseer dans votre application. Il est supposé être principalement utilisé dans les jeux, de sorte que le concepteur peut gérer l'édition des effets de particules plutôt que le programmeur.
 
 .. toctree::
     :maxdepth: 1  
 
-    overview
+    Aperçu
     ToolTutorial/index
     ToolReference/index
     MaterialToolReference/index
